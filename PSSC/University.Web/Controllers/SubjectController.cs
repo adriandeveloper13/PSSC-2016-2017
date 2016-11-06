@@ -28,17 +28,17 @@ namespace University.Web.Controllers
             return null;
         }
 
-        public virtual async Task<Subject> UpdateExameGradeForSchoolSubject()
-        {
-            return null;
-        }
-
-        public virtual async Task<T> SetGradePresenceLevel()
+        public virtual async Task<T> SetGradeForStudentActivity()
         {
             return null;
         }
 
         public virtual async Task<T> SetLaboratoryPresenceLevel(List<Student> students)
+        {
+            return null;
+        }
+
+        public virtual async Task<T> SetPercentOfStudentActivityForFinalAverageGrades(List<Student> students)
         {
             return null;
         }
