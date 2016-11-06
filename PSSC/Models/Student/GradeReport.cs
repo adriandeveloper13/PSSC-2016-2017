@@ -14,6 +14,10 @@ namespace Models.Student
     {
         private ReadOnlyCollection<KeyValuePair<SubjectInformation, SubjectSituation>> _gradeReport;
 
+        public GradeReport()
+        {
+            
+        }
         public GradeReport(ReadOnlyCollection<KeyValuePair<SubjectInformation, SubjectSituation>> gradeReport)
         {
             _gradeReport = gradeReport;
