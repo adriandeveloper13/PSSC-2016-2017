@@ -16,6 +16,16 @@ namespace University.Web.Controllers
             return View();
         }
 
+        public virtual async Task<T> CalculateAverageOfGradesForAStudentSchoolSubject()
+        {
+            return null;
+        }
+
+        public virtual async Task<T> GenerateGradeRaport()
+        {
+            return null;
+        }
+
 
         [HttpPost]
         public virtual async Task<Subject> DefineSchoolSubjects()

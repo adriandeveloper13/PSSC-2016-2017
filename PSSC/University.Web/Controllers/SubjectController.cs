@@ -44,6 +44,11 @@ namespace University.Web.Controllers
         }
 
 
+        public virtual async Task<Subject> ListSchoolSubjectGrades()
+        {
+            return null;
+        }
+
         // GET: Subject/Details/5
         public ActionResult Details(int id)
         {
