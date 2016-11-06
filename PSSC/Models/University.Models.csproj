@@ -59,6 +59,7 @@
     <Compile Include="Subject\Subject.cs" />
     <Compile Include="Subject\SubjectInformation.cs" />
     <Compile Include="Subject\SubjectSituation.cs" />
+    <Compile Include="Subject\SubjectStudentAssignments.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

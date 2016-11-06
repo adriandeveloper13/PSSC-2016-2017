@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using Models.Subject;
 
 namespace University.Web.Controllers
 {
@@ -12,6 +14,18 @@ namespace University.Web.Controllers
         public ActionResult Index()
         {
             return View();
+        }
+
+
+        [HttpPost]
+        public virtual async Task<Subject> DefineSchoolSubjects()
+        {
+            return null;
+        }
+
+        public virtual async Task<SubjectStudentAssignments> AssignSchoolSubjectToStudent()
+        {
+            return null;
         }
 
         // GET: StudyYear/Details/5
